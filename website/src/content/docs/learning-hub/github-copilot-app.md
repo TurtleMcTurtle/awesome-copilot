@@ -3,7 +3,7 @@ title: 'Getting Started with the GitHub Copilot app'
 description: 'Learn about the GitHub Copilot app, a desktop experience built for agent-native development. Understand its key features and who it''s for.'
 authors:
   - GitHub Copilot Learning Hub Team
-lastUpdated: 2026-08-07
+lastUpdated: 2026-08-18
 estimatedReadingTime: '8 minutes'
 tags:
   - copilot-app
@@ -98,6 +98,16 @@ Agent Merge also understands **stacked pull requests**: it shows a stack summary
 ### Requesting Code Reviews
 
 From the app, you can request a Copilot code review on a pull request—and re-request a review even from reviewers who already responded—without leaving the session. This keeps the review loop inside the same workspace where the change was made.
+
+### Managing Skills and Plugins from Customize
+
+*(v1.1.9+)* You can now create, edit, and remove **personal skills** directly from **Customize**, with a Markdown preview and validation—no need to hand-edit `SKILL.md` files in a text editor. Customize (or Settings) also lets you update installed plugins individually or all at once, and shows each plugin's installed version so you can tell at a glance when an update is available.
+
+*(v1.1.10+)* Plugin updates can now be applied **automatically**, including their bundled extensions, from **Customize → Plugins**—turn this on if you want your plugin library to always stay current without manually running updates.
+
+### Background Items and Queued Messages
+
+*(v1.1.10+)* Background items and queued message management are now available to everyone and enabled by default. You can queue up follow-up messages while an agent is still working, and remove a pending queued or steering message directly from the conversation transcript if you change your mind.
 
 ## Who is the Copilot app for?
 
